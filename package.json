@@ -1,0 +1,23 @@
+{
+  "name": "ts-wasm-loader",
+  "version": "1.0.0",
+  "description": "A ts-wasm-loader",
+  "main": "loader/index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assemblyscript": "github:AssemblyScript/assemblyscript",
+    "babel-jest": "^26.0.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^26.0.1",
+    "memory-fs": "^0.5.0",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
