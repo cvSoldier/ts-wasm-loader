@@ -1,14 +1,22 @@
 {
   "name": "ts-wasm-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A ts-wasm-loader",
-  "main": "loader/index.js",
+  "main": "./loader/index.js",
   "scripts": {
     "dev": "webpack --config webpack.config.js",
     "build": "webpack --config webpack.config.prod.js",
     "test": "jest"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvSoldier/ts-wasm-loader"
+  },
+  "keywords": [
+    "typescript",
+    "WebAssembly"
+  ],
+  "author": "csSoldier",
   "license": "ISC",
   "devDependencies": {
     "assemblyscript": "github:AssemblyScript/assemblyscript",
